@@ -15,6 +15,7 @@ myschema="id INT, name STRING, marks INT"
 df=spar.CreateDataFrame(mydata, schema=myschema)  
 
 **Display Dataframe**  
+
 df.display()  
 
 ## DBFS (Databrics File System)
